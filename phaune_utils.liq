@@ -38,6 +38,6 @@ def phaunepressor(s)
 end
 
 
-## You can now use "phaunepressor" as a variable in your ls_sript.liq:
+## You can now use "phaunepressor" as a function in your ls_sript.liq:
 
 ## (s) = phaunepressor(s)
