@@ -20,11 +20,15 @@ Include phaune_utils.liq in "/usr/lib/airtime/pypo/bin/liquidsoap_scripts/librar
 
 ## How to
 
-In your ls_script.liq, just use "phaunepressor" as a function of the type:
+In your ls_script.liq, where your stream source is define, after the amplify function, just use "phaunepressor" as a function of the type:
 
-(s) = phaunepressor(s)
+s = phaunepressor(s)
 
 where (s) is the source to process.
 
+Restart liquid soap.
 
-You can change the crossover and compression parameters by tweaking this values in phaune_utils.liq.
+
+
+
+You can change the crossover and compression parameters by tweaking those values in phaune_utils.liq.
